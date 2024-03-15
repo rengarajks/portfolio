@@ -56,6 +56,7 @@ const Projects = () => {
          <div><Card
           src="/proj/social.jpeg"
           title="Social media application"
+          link1="https://github.com/rengarajks/instagram-clone-django-python"
           description="✓ Tech. Stack : Django 
           ✓ It is a fully functional socialmedia application. 
          ✓ In this User can interact with other users.They can Follow,Message,Post,Comment and etc"
@@ -71,12 +72,56 @@ const Projects = () => {
           src="/proj/videoplat.jpeg"
           title="
           Videos platform fullstack application"
+          link1="https://github.com/rengarajks/Videos-platform-fullstack-application"
           description="✓ Tech. Stack : ReactJS,Tailwind CSS,Django,Django REST Framework,python,sql. 
           ✓ It is a video streaming platform application.
           ✓ It works two different manner for User and Creator."
         /></div>
 
         </motion.div>
+
+
+
+
+
+        <motion.div
+          variants={slideInFromRight(0.8)}
+          className="text-lg text-gray-400 my-5 "
+        >
+         <div><Card
+          
+          src="/proj/ins.png"
+          title="
+          Instagram clone"
+          link1="https://github.com/rengarajks/Instagram-clone-reactJS"
+          description="✓ Tech. Stack : ReactJS,CSS 
+          ✓ It is a clone of Instagram.
+          ✓ Basic instagram layout only"
+        /></div>
+
+        </motion.div>
+
+
+        <motion.div
+          variants={slideInFromRight(0.8)}
+          className="text-lg text-gray-400 my-5 "
+        >
+         <div><Card
+          
+          src="/proj/amaz.jpg"
+          title="
+          Amazon clone"
+          link1="https://github.com/rengarajks/Amazon-clone-ReactJS"
+          description="✓ Tech. Stack : ReactJS,Tailwind
+          ✓ It is a clone of Amazon.
+          ✓ Users can add the product to cart and buy."
+        /></div>
+
+        </motion.div>
+
+
+
+
         
 
 
@@ -89,6 +134,7 @@ const Projects = () => {
           <Card  src="/proj/enror.jpeg"
           title="
           College admission automated app using flutter"
+          link1="https://github.com/rengarajks/college-admission-automated-application-using-Flutter"
           description="✓ Tech. Stack : Flutter,Dart,Firebase. 
           ✓ It is a fully automated college admission app. 
           ✓ It works two different manner for Student & for Colleges."/>
@@ -104,9 +150,42 @@ const Projects = () => {
          <div><Card
           src="/proj/ecom.jpeg"
           title="E-commerce website"
+          link1="https://github.com/rengarajks/Modern-E-Commerce-site-React"
           description="✓ Tech. Stack : ReactJS,Tailwind css. 
           ✓ It is a e-commerce website. 
           ✓ It works two different manner for Customers & for Seller."
+        /></div>
+        </motion.div>
+
+
+        <motion.div
+          variants={slideInFromRight(0.8)}
+          className="text-lg text-gray-400 my-5 "
+        >
+         <div><Card
+          src="/proj/snake.jpg"
+          title="Snake game in Java"
+          link1="https://github.com/rengarajks/Snake-game-in-java"
+          description="✓ Tech. Stack : Java. 
+          ✓ It is a Snake game in Java. 
+          ✓ Player can earn points by eat food"
+          
+        /></div>
+        </motion.div>
+
+
+        <motion.div
+          variants={slideInFromRight(0.8)}
+          className="text-lg text-gray-400 my-5 "
+        >
+         <div><Card
+          src="/proj/ping.png"
+          title="Ping Pong in python"
+          link1="https://github.com/rengarajks/ping-pong-game-in-python"
+          description="✓ Tech. Stack : Python. 
+          ✓ It is a Ping Pong game written in python. 
+          ✓ It works two different manner for Two different players"
+
         /></div>
         </motion.div>
         
