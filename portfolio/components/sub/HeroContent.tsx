@@ -14,14 +14,14 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-[50vh] w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6  font-bold text-white w-[600px] w-auto h-auto"
         >
           <p className="cursive text-[24px]">Hi , my name is</p>
           <span className="text-5xl">
@@ -50,7 +50,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[500px]"
         >
           I'm an undergrad student who constantly seeks out innovative solutions to everyday problems using Technology. I've experience in Web Development using different Tech Stacks.
 

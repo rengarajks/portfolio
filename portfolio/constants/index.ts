@@ -38,14 +38,17 @@ export const Skill_data = [
     {
       name: "Likedin",
       src: "/soc1.svg",
+      url:'https://www.linkedin.com/in/rengarajk/'
     },
     {
       name: "Github",
       src: "/soc2.svg",
+      url:'https://github.com/rengarajks'
     },
     {
       name: "Instagram",
       src: "/instagram.svg",
+      url:'https://www.instagram.com/rengaraj.k_/'
     },
   ];
   
